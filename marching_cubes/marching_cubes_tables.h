@@ -45,7 +45,7 @@ const int a2eConnection[12][2] =
 
 // For example, a2fConnectionTable[3] is the case that corner[0] and corner[1] are in the object.
 // There will be 2 triangle meshes. {1, 8, 3} are edges where the vertex of the first triangle is and {9, 8, 1} are another triangle.
-// There are up to 5 triangle meshes per cube. Thus the volumes are 16.
+// There are up to 5 triangle meshes per cube. Thus the number of volumes is 16.
 const int a2fConnectionTable[256][16] =
 {
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
