@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
     igl::marching_cubes(S, GV, res(0), res(1), res(2), 0, SV, SF);
     igl::marching_cubes(B, GV, res(0), res(1), res(2), 0, BV, BF);
 
-    // 5. Display the result
+    // 5. Render the triangle meshes
     std::cout << R"(Usage:
         '1'  Show original mesh.
         '2'  Show marching cubes contour of signed distance.
