@@ -1,4 +1,6 @@
-marching cubes algorithm
+# Marching Cubes Algorithm
+
+代码扒自 LIBIGL 库，无法运行。使用请安装 LIBIGL 库。
 
 ### 算法目标
 
