@@ -10,6 +10,8 @@
 
 将三维空间分割成一个个 cube，遍历处理每个 cube。根据 cube 每个顶点与物体的内外关系提前计算出 256 种情况的哈希表（marching_cubes_tables.h），再根据 cube 每个顶点的 SDF 值线性插值出 triangle mesh 的顶点位置，而顶点索引可查表得到。
 
+![image](https://github.com/tyouthfor/Polygon_Mesh_Processing/blob/main/image/marching_cubes.png)
+
 ### 算法流程
 
 1. marching_cubes 函数
