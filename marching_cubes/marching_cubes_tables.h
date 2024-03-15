@@ -12,8 +12,7 @@
 //    [3]--------------[2]
 //             2
 
-
-// 12 Ìõ±ß£¬ÈıÎ»Ê®Áù½øÖÆÊı¼´ 12 Î»£¬Ã¿Ò»Î»±íÊ¾Ò»Ìõ±ßÊÇ·ñÈ¥ÇúÃæÏà½»
+// 12 æ¡è¾¹ï¼Œä¸‰ä½åå…­è¿›åˆ¶æ•°å³ 12 ä½ï¼Œæ¯ä¸€ä½è¡¨ç¤ºä¸€æ¡è¾¹æ˜¯å¦ä¸æ›²é¢ç›¸äº¤
 // For example, aiCubeEdgeFlags[3] = 0x30a is the case that corner[0] and corner[1] are in the object.
 // 0x30a = 0011_0000_1010, which means edge[1], edge[3], edge[8] and edge[9] intersect the surface.
 const int aiCubeEdgeFlags[256] =
@@ -44,10 +43,9 @@ const int a2eConnection[12][2] =
   {0,4}, {1,5}, {2,6}, {3,7}
 };
 
-
 // For example, a2fConnectionTable[3] is the case that corner[0] and corner[1] are in the object.
 // There will be 2 triangle meshes. {1, 8, 3} are edges where the vertex of the first triangle is and {9, 8, 1} are another triangle.
-// There are up to 5 triangle meshes per cube. Thus the volumes are 16.
+// There are up to 5 triangle meshes per cube. Thus the number of volumes is 16.
 const int a2fConnectionTable[256][16] =
 {
   {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
