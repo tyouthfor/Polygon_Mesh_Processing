@@ -1,7 +1,10 @@
 # Halfedge data structures
 
-´úÂë²Î¿¼×Ô https://github.com/yig/halfedge£¬°ë±ßÊı¾İ½á¹¹µÄ C++ ÊµÏÖ£¬ÎŞÆäËûÒÀÀµ£¬ÄÜ¹»±éÀú¶¥µãµÄËùÓĞ one-ring neighbors¡£Í¬Ê±ÔÚ OpenMesh_example.cpp ÖĞÖ±½Óµ÷ÓÃÁË OpenMesh ¿âÌá¹©µÄ API ½øĞĞ±éÀú¡£
+### Reference
+* https://github.com/yig/halfedge
 
-![image]https://github.com/tyouthfor/Polygon_Mesh_Processing/blob/main/image/halfedge.png
+åŠè¾¹æ•°æ®ç»“æ„çš„ C++ å®ç°ï¼Œæ— å…¶ä»–ä¾èµ–ï¼Œèƒ½å¤Ÿéå†é¡¶ç‚¹çš„æ‰€æœ‰ one-ring neighborsã€‚åŒæ—¶åœ¨ OpenMesh_example.cpp ä¸­ç›´æ¥è°ƒç”¨äº† OpenMesh åº“æä¾›çš„ API è¿›è¡Œéå†ã€‚
 
-ÉÏÍ¼ÊÇ main.cpp ÖĞµÄÊ¾Àı¶ÔÓ¦µÄÍ¼Ê¾¡£
+![image](https://github.com/tyouthfor/Polygon_Mesh_Processing/blob/main/image/halfedge.png)
+
+ä¸Šå›¾æ˜¯ main.cpp ä¸­çš„ç¤ºä¾‹å¯¹åº”çš„å›¾ç¤ºã€‚
